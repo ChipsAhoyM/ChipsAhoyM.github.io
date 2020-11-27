@@ -20,4 +20,4 @@ Research experience
 * March 2019 ~ Present: Research Assistant
   * EECS, Peking University
   * Computational Photography and Computer Vision
-  * Supervisor: Professor Boxin Shi
+  * Supervisor: Prof. Boxin Shi
