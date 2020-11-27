@@ -13,11 +13,11 @@ I am an undergraduate student in the school of Electronics Engineering and Compu
 Education
 ======
 * B.S. in Computer Science and Technology, Peking University, 2017~2021.
-* Ph.D in Artificial Intelligence and Media Computation, Peking University, 2021~.(expected)
+<!--* Ph.D in Artificial Intelligence and Media Computation, Peking University, 2021~.(expected)-->
 
 Research experience
 ======
 * March 2019 ~ Present: Research Assistant
-  * [EECS](https://eecs.pku.edu.cn), [Peking University](https://www.pku.edu.cn)
+  * EECS, Peking University
   * Computational Photography and Computer Vision
-  * Supervisor: Professor [Boxin Shi](https://ci.idm.pku.edu.cn)
+  * Supervisor: Professor Boxin Shi
