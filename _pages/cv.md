@@ -14,12 +14,12 @@ Education
 * B.S. in Computer Science and Technology, Peking University, 2017~2021.
 * Ph.D in Artificial Intelligence and Media Computation, Peking University, 2021~.(expected)
 
-Work experience
+Research experience
 ======
 * March 2019 ~ Present: Research Assistant
   * Peking University
-  * Research Interest: Computational Photograph
-  * Supervisor: Professor Boxin Shi.
+  * Computational Photograph and Computer Vision
+  * Supervisor: Professor Boxin Shi<ul>ci.idm.pku.edu.cn</ul>
   
 Skills
 ======
@@ -35,4 +35,3 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-* Currently signed in to 43 different slack teams
