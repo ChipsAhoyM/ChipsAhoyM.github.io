@@ -19,7 +19,7 @@ Research experience
 * March 2019 ~ Present: Research Assistant
   * Peking University
   * Computational Photograph and Computer Vision
-  * Supervisor: Professor Boxin Shi<ul>ci.idm.pku.edu.cn</ul>
+  * Supervisor: Professor Boxin Shi<ul>{%ci.idm.pku.edu.cn%}</ul>
   
 Skills
 ======
