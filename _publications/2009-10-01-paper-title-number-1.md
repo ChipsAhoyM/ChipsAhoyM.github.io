@@ -6,6 +6,7 @@ excerpt: 'This paper is about the number 1. The number 2 is left for future work
 date: 2020-03-02
 venue: 'Arxiv'
 paperurl: 'https://arxiv.org/abs/2003.00847'
+citation: 'Account, T. (2009). "Test Accounts: An Introduction." <i>Testing Studies</i>. 1(1).'
 
 ---
 This paper is about the number 1. The number 2 is left for future work.
