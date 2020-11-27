@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
 
-
 Education
 ======
 * B.S. in Computer Science and Technology, Peking University, 2017~2021.
