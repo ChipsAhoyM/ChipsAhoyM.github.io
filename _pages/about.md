@@ -12,7 +12,7 @@ I am an undergraduate student in the school of Electronics Engineering and Compu
 
 Education
 ======
-* B.S. in Computer Science and Technology, Peking University, 2017~2021.
+* B.S. in Computer Science and Technology, Peking University, 2017~Present.
 <!--* Ph.D in Artificial Intelligence and Media Computation, Peking University, 2021~.(expected)-->
 
 Research experience
