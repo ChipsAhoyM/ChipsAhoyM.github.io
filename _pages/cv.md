@@ -18,7 +18,7 @@ Research experience
 * March 2019 ~ Present: Research Assistant
   * [EECS](https://eecs.pku.edu.cn), [Peking University](https://www.pku.edu.cn)
   * Computational Photograph and Computer Vision
-  * Supervisor: Professor [Boxin Shi](http://ci.idm.pku.edu.cn)
+  * Supervisor: Professor [Boxin Shi](ci.idm.pku.edu.cn)
 
 {% include base_path %}
 Publications
