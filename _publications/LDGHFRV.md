@@ -1,7 +1,7 @@
 ---
 title: "Learning to Deblur and Generate High Frame Rate Video with an Event Camera"
 collection: publications
-permalink: /publication/LDGHFRV
+permalink: /publications/LDGHFRV
 date: 2020-03-02
 venue: 'Arxiv'
 paperurl: 'https://arxiv.org/abs/2003.00847'
