@@ -17,19 +17,10 @@ Education
 Research experience
 ======
 * March 2019 ~ Present: Research Assistant
-  * Peking University
+  * [EECS](eecs.pku.edu.cn), [Peking University](pku.edu.cn)
   * Computational Photograph and Computer Vision
-  * Supervisor: Professor Boxin Shi<ul>{%ci.idm.pku.edu.cn%}</ul>
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
+  * Supervisor: Professor [Boxin Shi](ci.idm.pku.edu.cn)
+ 
 Publications
 ======
   <ul>{% for post in site.publications %}
