@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
 
 Education
 ======
@@ -17,10 +16,11 @@ Education
 Research experience
 ======
 * March 2019 ~ Present: Research Assistant
-  * [EECS](eecs.pku.edu.cn), [Peking University](pku.edu.cn)
+  * [EECS](https://eecs.pku.edu.cn), [Peking University](https://pku.edu.cn)
   * Computational Photograph and Computer Vision
-  * Supervisor: Professor [Boxin Shi](ci.idm.pku.edu.cn)
- 
+  * Supervisor: Professor [Boxin Shi](https://ci.idm.pku.edu.cn)
+
+{% include base_path %}
 Publications
 ======
   <ul>{% for post in site.publications %}
