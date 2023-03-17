@@ -31,12 +31,12 @@ layout: default
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
-              {{ page.profile.address }}
+              <span style="color:gray">{{ page.profile.address }}</span>
             </div>
             {%- endif %}
             {%- if page.profile.institution %}
             <div class="address">
-              {{ page.profile.institution }}
+              <span style="color:gray">{{ page.profile.institution }}</span>
             </div>
             {%- endif %}
             {%- if page.social %}
@@ -63,6 +63,7 @@ layout: default
           <!-- News -->
           {%- include news.html %}
           {%- endif %}
+          
           {% if page.selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}
