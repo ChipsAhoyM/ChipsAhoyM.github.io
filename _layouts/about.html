@@ -7,7 +7,7 @@ layout: default
         <header class="post-header">
           <h1 class="post-title">
            <!-- {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %} -->
-           <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+           <span class="font-weight-bold">{{ site.first_name }}{{ site.middle_name }} {{ site.last_name }}</span> ({{site.chinese_name}})
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
@@ -32,6 +32,11 @@ layout: default
             {%- if page.profile.address %}
             <div class="address">
               {{ page.profile.address }}
+            </div>
+            {%- endif %}
+            {%- if page.profile.institution %}
+            <div class="address">
+              {{ page.profile.institution }}
             </div>
             {%- endif %}
             {%- if page.social %}

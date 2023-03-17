@@ -6,7 +6,9 @@ title: Minggui Teng's Homepage # the website title (if blank, full name will be 
 first_name: Minggui
 middle_name: 
 last_name: Teng
+chinese_name: 滕明桂
 email: minggui_teng@pku.edu.cn
+institution: School of Computer Science, Peking University.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Academic stuff about xxxx.only test
 footer_text: >
