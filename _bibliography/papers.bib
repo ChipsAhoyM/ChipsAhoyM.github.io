@@ -1,84 +1,139 @@
----
----
+@STRING{CVPR = {Proc. of Computer Vision and Pattern Recognition}}
+@STRING{ECCV = {Proc. of European Conference on Computer Vision}}
+@STRING{ICCV = {Proc. of International Conference on Computer Vision}}
+@STRING{NIPS = {Proc. of Advances in Neural Information Processing Systems}}
+@STRING{ICML = {Proc. of International Conference on Machine Learning}}
+@STRING{AAAI = {Proc. of the AAAI Conference on Artificial Intelligence}}
+@STRING{ICCP = {Proc. of International Conference on Computational Photography}}
+@STRING{ICME = {Proc. of International Conference on Multimedia and Expo}}
+@STRING{ICIP = {Proc. of International Conference on Image Processing}}
+@STRING{ACCV = {Proc. of Asian Conference on Computer Vision}}
+@STRING{WACV = {Proc. of Winter Conference on Applications of Computer Vision}}
+@STRING{BMVC = {Proc. of British Machine Vision}}
+@STRING{PAMI = {IEEE Transactions on Pattern Analysis and Machine Intelligence}}
+@STRING{TIP = {IEEE Transactions on Image Processing}}
+@STRING{TM = {IEEE Transactions on Multimedia}}
+@STRING{TNN = {IEEE Transactions on Neural Networks}}
+@STRING{TNNLS = {IEEE Transactions on Neural Networks and Learning Systems}}
+@STRING{IJCV = {International Journal of Computer Vision}}
+@STRING{JOSA = {Journal of the Optical Society of America}}
+@STRING{OE = {Optics Express}}
+@STRING{AO = {Applied Optics}}
+@STRING{SIGGRAPH = {Proc. of ACM SIGGRAPH}}
+@STRING{SIGGRAPHa = {Proc. of ACM SIGGRAPH Asia}}
+@STRING{SIGGRAPHTOG = {ACM Transactions on Graphics (Proc. of ACM SIGGRAPH)}}
+@STRING{SIGGRAPHTOGa = {ACM Transactions on Graphics (Proc. of ACM SIGGRAPH Asia)}}
+@STRING{MM = {Proc. of ACM MM}}
+@STRING{MMa = {Proc. of ACM MM Asia}}
+@STRING{SIGMMTOMM = {ACM Transactions on Multimedia Computing, Communications, and Applications (Proc. of ACM SIGMM)}}
+@STRING{SIGMMTOMMa = {ACM Transactions on Multimedia Computing, Communications, and Applications (Proc. of ACM SIGMM Asia)}}
+@STRING{CVPRW = {Proc. of Computer Vision and Pattern Recognition Workshops}}
+@STRING{ECCVW = {Proc. of European Conference on Computer Vision Workshops}}
+@STRING{ICCVW = {Proc. of International Conference on Computer Vision Workshops}}
 
-@string{aps = {American Physical Society,}}
+@inproceedings{han2020neuromorphic,
+    abbr={CVPR},
+    bibtex_show={true},
+    pdf={https://openaccess.thecvf.com/content_CVPR_2020/papers/Han_Neuromorphic_Camera_Guided_High_Dynamic_Range_Imaging_CVPR_2020_paper.pdf},
+	supp={https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Han_Neuromorphic_Camera_Guided_CVPR_2020_supplemental.pdf},
+	title={Neuromorphic Camera Guided High Dynamic Range Imaging},
+	author={Han, Jin and Zhou, Chu and Duan, Peiqi and Tang, Yehui and Xu, Chang and Xu, Chao and Huang, Tiejun and Shi, Boxin},
+	booktitle=CVPR,
+	pages={1730--1739},
+	year={2020}
+}
 
-@book{einstein1956investigations,
+@inproceedings{zhou2020unmodnet,
+    abbr={NIPS},
+    bibtex_show={true},
+    pdf={https://proceedings.neurips.cc/paper/2020/file/1102a326d5f7c9e04fc3c89d0ede88c9-Paper.pdf},
+    supp={https://proceedings.neurips.cc/paper/2020/file/1102a326d5f7c9e04fc3c89d0ede88c9-Supplemental.pdf},
+	title = {UnModNet: Learning to Unwrap a Modulo Image for High Dynamic Range Imaging},
+	author = {Zhou, Chu and Zhao, Hang and Han, Jin and Xu, Chang and Xu, Chao and Huang, Tiejun and Shi, Boxin},
+	booktitle = NIPS,
+	pages = {1559--1570},
+	year = {2020}
+}
+
+@inproceedings{han2021evintsr,
+    abbr={ICCV},
+    bibtex_show={true},
+	pdf = {https://openaccess.thecvf.com/content/ICCV2021/papers/Han_EvIntSR-Net_Event_Guided_Multiple_Latent_Frames_Reconstruction_and_Super-Resolution_ICCV_2021_paper.pdf},
+	supp = {https://openaccess.thecvf.com/content/ICCV2021/supplemental/Han_EvIntSR-Net_Event_Guided_ICCV_2021_supplemental.pdf},
+	title = {EvIntSR-Net: Event Guided Multiple Latent Frames Reconstruction and Super-resolution},
+	author = {Han, Jin and Yang, Yixin and Zhou, Chu and Xu, Chao and Shi, Boxin},
+	booktitle = ICCV,
+	pages = {4882--4891},
+	year = {2021}
+}
+
+@inproceedings{zhou2021learning,
+    abbr={NIPS},
+    bibtex_show={true},
+	pdf={https://papers.nips.cc/paper/2021/file/5fd0b37cd7dbbb00f97ba6ce92bf5add-Paper.pdf},
+	supp={https://papers.nips.cc/paper/2021/file/5fd0b37cd7dbbb00f97ba6ce92bf5add-Supplemental.pdf},
+	title = {Learning to Dehaze with Polarization},
+	author = {Zhou, Chu and Teng, Minggui and Han, Yufei and Xu, Chao and Shi, Boxin},
+	booktitle = NIPS,
+	pages = {11487--11500},
+	year = {2021}
+}
+
+@inproceedings{zhou2021delieve,
+  abbr={ICCVW},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+  pdf={https://openaccess.thecvf.com/content/ICCV2021W/PBDL/papers/Zhou_DeLiEve-Net_Deblurring_Low-Light_Images_With_Light_Streaks_and_Local_Events_ICCVW_2021_paper.pdf},
+  supp={https://openaccess.thecvf.com/content/ICCV2021W/PBDL/supplemental/Zhou_DeLiEve-Net_Deblurring_Low-Light_ICCVW_2021_supplemental.pdf},
+  title={{DeLiEve-Net}: Deblurring Low-Light Images with Light Streaks and Local Events},
+  author={Zhou, Chu and Teng, Minggui and Han, Jin and Xu, Chao and Shi, Boxin},
+  booktitle=ICCVW,
+  pages={1155--1164},
+  year={2021}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{teng2022nest,
+  abbr={ECCV},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  pdf={https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136660649.pdf},
+  supp={https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136660649-supp.pdf},
+  title={{NEST}: Neural Event Stack for Event-Based Image Enhancement},
+  author={Teng, Minggui and Zhou, Chu and Lou, Hanyue and Shi, Boxin},
+  booktitle=ECCV,
+  pages={660--676},
+  year={2022}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@inproceedings{zhang2022data,
+  abbr={ECCV},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  pdf={https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136670071.pdf},
+  supp={https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136670071-supp.pdf},
+  title={Data Association Between Event Streams and Intensity Frames Under Diverse Baselines},
+  author={Zhang, Dehao and Ding, Qiankun and Duan, Peiqi and Zhou, Chu and Shi, Boxin},
+  booktitle=ECCV,
+  pages={72--90},
+  year={2022}
+}
+
+@article{han2023hybrid,
+  abbr={PAMI},
+  bibtex_show={true},
+  pdf={https://ieeexplore.ieee.org/abstract/document/10036136},
+  supp={https://drive.google.com/file/d/1gfdc9axSIHO3OOIXL6yTCGljj1l54gqO/view?usp=sharing},
+  title={Hybrid High Dynamic Range Imaging fusing Neuromorphic and Conventional Images},
+  author={Han, Jin and Yang, Yixin and Duan, Peiqi and Zhou, Chu and Ma, Lei and Xu, Chao and Huang, Tiejun and Sato, Imari and Shi, Boxin},
+  journal=PAMI,
+  year={2023}
+}
+
+@article{zhou2023deblurring,
+  abbr={IJCV},
+  bibtex_show={true},
+  pdf={https://link.springer.com/article/10.1007/s11263-023-01754-5},
+  supp={https://ci.idm.pku.edu.cn/Zhou_IJCV23.pdf},
+  title={Deblurring Low-Light Images with Events},
+  author={Zhou, Chu and Teng, Minggui and Han, Jin and Liang, Jinxiu and Xu, Chao and Cao, Gang and Shi, Boxin},
+  journal=IJCV,
+  pages={1--15},
+  year={2023}
 }
