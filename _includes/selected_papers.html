@@ -11,11 +11,12 @@
   <h2>Selected Publications</h2>
   <div style="border:1px solid #CCC"></div>
   <br>
-  <p>#: Equal Contribution  *: Corresponding authors</p>
+  <p># Equal Contribution    * Corresponding authors</p>
   {% assign publications = site.publications | sort: "year" | reverse %}
   {% for pub in publications %}
   <div class="pubitem mb-3">
     <div class="pubtitle">
+      {% if pub.select == '1'%}
       {% if pub.official_link != '' %}
         <a href={{ pub.official_link }}><span class="plain-link">{{ pub.title }}</span></a>
       {% else %}
@@ -35,5 +36,6 @@
       {% endif %}
     </div>
   </div>
+  {% endif %}
   {% endfor %}
 </div>
