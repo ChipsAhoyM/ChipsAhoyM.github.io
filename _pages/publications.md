@@ -1,7 +1,7 @@
 ---
 layout: pub
 permalink: /publications/
-title: publications
+title: Publications
 description: 
 nav: true
 ---
