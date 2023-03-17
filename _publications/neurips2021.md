@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Learning to Dehaze with Polarization'
-authors: Chu Zhou, <strong>Minggui Teng<strong>, Yufei Han, Chao Xu, and Boxin Shi
+authors: Chu Zhou, <strong>Minggui Teng</strong>, Yufei Han, Chao Xu, and Boxin Shi
 publication: In <i>Advances in Neural Information Processing Systems</i>, 2021.
 year: 2021.12
 select: '0'
